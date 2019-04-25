@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="test1">
+    <classes>
+      <class name="com.test.NewTest"/>
+      <method><exclude name="test1"></exclude></method>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="test2">
+    <classes>
+      <class name="com.test.NewTest"/>
+    </classes>
+    
+   </test> <!-- Test -->
+   
+  
+  
+</suite> <!-- Suite -->

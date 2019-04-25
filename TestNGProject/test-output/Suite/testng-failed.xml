@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.test.NewTest">
+        <methods>
+          <include name="testAssertion"/>
+        </methods>
+      </class> <!-- com.test.NewTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test thread-count="5" name="test2(failed)">
+    <classes>
+      <class name="com.test.NewTest">
+        <methods>
+          <include name="testAssertion"/>
+        </methods>
+      </class> <!-- com.test.NewTest -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
